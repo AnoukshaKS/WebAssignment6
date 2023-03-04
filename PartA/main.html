@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Calculator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./calculatorresult.js"></script>
+  </head>
+  <body id="body">
+    
+      <div class="form-group">
+       <h1>Simple Calculator</h1>   
+      </div>
+     <br>
+     <br>
+
+          Number1: <input type="text" id="txtFirstNumber" /><br><br> <h5 id="No1" style="color: black">Enter a Valid Number</h5>
+					Number2: <input type="text" id="txtSecondNumber" /><br><br> <h5 id="No2" style="color: black">Enter a Valid Number</h5>
+					<input type="button" id="btnADD" class="result Addition" value="Addition" />
+					<input type="button" id="btnSUB" class="result Subtract" value="Subtraction" /><br><br>
+					<input type="button" id="btnMUL" class="result Multiplication" value="Multiplication" />
+					<input type="button" id="btnDIV" class="result Division" value="Division" />
+
+      <br /><br />
+      <div class="form-group">
+        <label for="password">Result :</label>
+        <input input type="text" id="result" placeholder="Result" readonly />
+      </div>
+    
+  </body>
+</html>

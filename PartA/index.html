@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+<title>A Simple Calculator</title>
+   
+<link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <!-- <link rel="stylesheet" href="./style.css" -->
+    <script src="./login.js"></script>
+  </head>
+
+  <body id="body">
+    <br />
+    
+
+
+        <form action="main.html">
+          <div class="form-outline mb-4">
+            <label for="user">Username: </label>
+            <input
+              type="text"
+              name="username"
+              id="membername"
+              class="form-control" style="width: 33%;"
+              
+            />
+            <h5 id="uservalidation" style="color: black">Username is missing</h5>
+          </div>
+
+          <div class="form-outline mb-4">
+            <label for="user"> Email: </label>
+            <input type="text" name="email" id="emailid" class="form-control" style="width: 33%;"/>
+            <h5 id="emailvalidation" style="color: black">Email-Id is missing</h5>
+          </div>
+
+          <div class="form-outline mb-4">
+            <label for="password"> Password: </label>
+            <input
+              type="password"
+              name="pass"
+              id="passcheck"
+              class="form-control" style="width: 33%;"
+            />
+            <h5 id="passwordval" style="color: black">
+              Please enter the password correctly
+            </h5>
+          </div>
+
+          <input
+            type="submit"
+            id="submitbtn"
+            value="Submit"
+            class="btn btn-primary"
+          />
+        </form>
+      </div>
+    </div>
+
+  </body>
+</html>

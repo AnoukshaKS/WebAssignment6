@@ -1,0 +1,11 @@
+/*body{
+    display: grid;
+    justify-content: center;
+} */
+/* #calc{
+    margin-left: 500px;
+} */
+#body{
+    margin-left: 500px;
+    background-color: pink;
+}
